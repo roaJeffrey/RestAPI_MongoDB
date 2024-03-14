@@ -1,0 +1,164 @@
+// Car Company
+###Get All Car Company
+GET http://localhost:3000/carcompany
+
+### Get a Single Car Company
+POST http://localhost:3000/carcompany
+Content-Type: application/json
+
+{
+    "carName": "Honda",
+    "carFounder": "Jian",
+    "dateFounded": "August 1, 1999"
+}
+
+### Update a single Car Company
+PATCH http://localhost:3000/carcompany
+Content-Type: application/json
+
+{
+    "carName": "Suzuki",
+    "carFounder": "Jeffrey",
+    "dateFounded": "August 2, 2002"
+}
+
+### Delete a single Car Company
+DELETE http://localhost:3000/carcompany
+
+
+
+
+
+// Car Details
+###Get All Car
+GET http://localhost:3000/cardetails
+
+### Get a Single Car
+POST http://localhost:3000/cardetails
+Content-Type: application/json
+
+{
+    "carBrand": "Honda",
+    "carName": "SUV",
+    "carSerialNumber": "123456",
+    "quantity": "25"
+}
+
+### Update a single Car
+PATCH http://localhost:3000/cardetails
+Content-Type: application/json
+
+{
+    "carBrand": "Toyota",
+    "carName": "Truck",
+    "carSerialNumber": "654321",
+    "quantity": "10"
+
+}
+
+### Delete a single Car
+DELETE http://localhost:3000/cardetails
+
+
+
+
+
+// Employee Details
+###Get All Car
+GET http://localhost:3000/employeedetails
+
+### Get a Single Car
+POST http://localhost:3000/employeedetails
+Content-Type: application/json
+
+{
+    "firstName": "Jeffrey",
+    "middleName": "Gonora",
+    "lastName": "Roa",
+    "address": "Zone 3, Poblacion, El Salvador City",
+    "birthday": "August 23, 2002",
+    "position": "Sales Person"
+}
+
+### Update a single Car
+PATCH http://localhost:3000/employeedetails
+Content-Type: application/json
+
+{
+    "firstName": "Jian",
+    "middleName": "L",
+    "lastName": "Sanchez",
+    "address": "Zone 6, Gusa, Cagayan De Oro City",
+    "birthday": "December 1, 2002",
+    "position": "Manager"
+}
+
+### Delete a single Car
+DELETE http://localhost:3000/employeedetails
+
+
+
+
+
+// Inventory
+###Get All Car
+GET http://localhost:3000/inventory
+
+### Get a Single Car
+POST http://localhost:3000/inventory
+Content-Type: application/json
+
+{
+    "brandName": "Honda",
+    "quantity": "15"
+}
+
+### Update a single Car
+PATCH http://localhost:3000/inventory
+Content-Type: application/json
+
+{
+    "brandName": "Honda",
+    "quantity": "10"
+}
+
+### Delete a single Car
+DELETE http://localhost:3000/inventory
+
+
+
+
+// Owner Details
+###Get All Car
+GET http://localhost:3000/ownerdetails
+
+### Get a Single Car
+POST http://localhost:3000/ownerdetails
+Content-Type: application/json
+
+{
+    "carName": "Toyota",
+    "carSerialNumber": "654321",
+    "firstName": "Jian",
+    "middleName": "L",
+    "lastName": "Sanchez",
+    "address": "Zone 6, Gusa, Cagayan De Oro City",
+    "birthday": "December 1, 2002"
+}
+
+### Update a single Car
+PATCH http://localhost:3000/ownerdetails
+Content-Type: application/json
+
+{
+    "carName": "Lamborghini",
+    "carSerialNumber": "123456",
+    "firstName": "Jeffrey",
+    "middleName": "G",
+    "lastName": "Roa",
+    "address": "Zone 3, Poblacion, El Salvador City",
+    "birthday": "August 23, 2002"
+}
+
+### Delete a single Car
+DELETE http://localhost:3000/ownerdetails
